@@ -1,0 +1,15 @@
+{
+  "name": "whack-a-micro",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A whack-a-mole game on the keys of a Work Louder Creator Micro V2 or Codex Micro",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.4.0"
+  },
+  "scripts": {
+    "start": "node serve.mjs",
+    "test": "node --test"
+  }
+}

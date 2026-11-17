@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <g transform="translate(-1 -6) scale(1.1)">
+  <!-- The device: 4 × 4, knob top right, stick bottom left, one mole lit. -->
+  <rect x="6" y="18" width="40" height="40" rx="7" fill="#24242a" stroke="#3d3d45" stroke-width="1.5"/>
+  <g fill="#4a4a54">
+    <rect x="18.5" y="22" width="6.5" height="6.5" rx="1.5"/>
+    <rect x="27" y="22" width="6.5" height="6.5" rx="1.5"/>
+    <rect x="10" y="30.5" width="6.5" height="6.5" rx="1.5"/>
+    <rect x="18.5" y="30.5" width="6.5" height="6.5" rx="1.5"/>
+    <rect x="27" y="30.5" width="6.5" height="6.5" rx="1.5"/>
+    <rect x="35.5" y="30.5" width="6.5" height="6.5" rx="1.5"/>
+    <rect x="10" y="39" width="6.5" height="6.5" rx="1.5"/>
+    <rect x="18.5" y="39" width="6.5" height="6.5" rx="1.5"/>
+    <rect x="35.5" y="39" width="6.5" height="6.5" rx="1.5"/>
+    <rect x="18.5" y="47.5" width="6.5" height="6.5" rx="1.5"/>
+    <rect x="27" y="47.5" width="6.5" height="6.5" rx="1.5"/>
+    <rect x="35.5" y="47.5" width="6.5" height="6.5" rx="1.5"/>
+  </g>
+  <circle cx="38.75" cy="25.25" r="3.6" fill="none" stroke="#4a4a54" stroke-width="1.6"/>
+  <circle cx="13.25" cy="50.75" r="2" fill="#4a4a54"/>
+  <rect x="25.5" y="37.5" width="9.5" height="9.5" rx="3" fill="#34d36b" opacity="0.5"/>
+  <rect x="27" y="39" width="6.5" height="6.5" rx="1.5" fill="#34d36b"/>
+  <!-- Impact. -->
+  <g stroke="#f2b134" stroke-width="2.4" stroke-linecap="round">
+    <path d="M23.5 47.5 20 51"/>
+    <path d="M30.25 48.5v4.5"/>
+    <path d="M22.5 41.5h-4"/>
+  </g>
+  <!-- The mallet, striking the lit key. -->
+  <g transform="translate(31 39) rotate(-25)">
+    <rect x="6" y="-10.5" width="25" height="5" rx="2.5" fill="#c48a4a" stroke="#7a4f22" stroke-width="1.2"/>
+    <rect x="-6.5" y="-17" width="13" height="17" rx="3" fill="#e0a45c" stroke="#7a4f22" stroke-width="1.4"/>
+    <path d="M-6.5 -12.5h13M-6.5 -4.5h13" stroke="#7a4f22" stroke-width="1.2"/>
+  </g>
+  </g>
+</svg>

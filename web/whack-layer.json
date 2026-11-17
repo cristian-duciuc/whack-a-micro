@@ -1,0 +1,215 @@
+{
+  "id": 1,
+  "name": "Whack-a-Micro",
+  "description": "A whack-a-mole game on the keys.",
+  "os": [
+    0
+  ],
+  "keyboardLayoutTypes": [
+    "universal"
+  ],
+  "devices": [
+    "codex_micro",
+    "creator_micro_v2",
+    "creator_micro_v2_base",
+    "creator_micro_v2_pro"
+  ],
+  "layer": {
+    "id": 0,
+    "name": "Whack-a-Micro",
+    "color": "#FF00AA",
+    "os": 0,
+    "layout": {
+      "base": [
+        [
+          {
+            "keycode": "SA_1"
+          },
+          {
+            "keycode": "SA_2"
+          }
+        ],
+        [
+          {
+            "keycode": "SA_3"
+          },
+          {
+            "keycode": "SA_4"
+          },
+          {
+            "keycode": "SA_5"
+          },
+          {
+            "keycode": "SA_6"
+          }
+        ],
+        [
+          {
+            "keycode": "SA_7"
+          },
+          {
+            "keycode": "SA_8"
+          },
+          {
+            "keycode": "SA_9"
+          },
+          {
+            "keycode": "SA_10"
+          }
+        ],
+        [
+          {
+            "keycode": "SA_11"
+          },
+          {
+            "keycode": "SA_12"
+          },
+          {
+            "keycode": "SA_13"
+          }
+        ]
+      ],
+      "encoders": [
+        [
+          {
+            "keycode": "KC_VOLD"
+          },
+          {
+            "keycode": "KC_VOLU"
+          },
+          {
+            "keycode": "KC_MUTE"
+          }
+        ]
+      ],
+      "joystick": {
+        "type": "RADIAL",
+        "sectors": []
+      }
+    }
+  },
+  "actions": [],
+  "actionGroups": [],
+  "multiactions": [],
+  "multiactionGroups": [],
+  "smartActions": [
+    {
+      "id": 1,
+      "name": "Mole row 1 column 2",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "mole-r1-c2"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Mole row 1 column 3",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "mole-r1-c3"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Mole row 2 column 1",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "mole-r2-c1"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Mole row 2 column 2",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "mole-r2-c2"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Mole row 2 column 3",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "mole-r2-c3"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Mole row 2 column 4",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "mole-r2-c4"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Mole row 3 column 1",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "mole-r3-c1"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Mole row 3 column 2",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "mole-r3-c2"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Mole row 3 column 3",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "mole-r3-c3"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Mole row 3 column 4",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "mole-r3-c4"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Mole row 4 column 2",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "mole-r4-c2"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Mole row 4 column 3",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "mole-r4-c3"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Mole row 4 column 4",
+      "color": null,
+      "type": "API",
+      "payload": {
+        "id": "mole-r4-c4"
+      }
+    }
+  ],
+  "smartActionGroups": []
+}
